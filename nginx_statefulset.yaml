@@ -37,11 +37,12 @@ spec:
         requests:
           storage: 1Gi
 
+
 ...
 kind: Service
 apiVersion: v1
 metadata:
-  name:  nginx
+  name:  nginx_svc
 spec:
   selector:
     app:  nginx
